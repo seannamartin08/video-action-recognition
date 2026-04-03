@@ -1,22 +1,22 @@
-# 🎬 Video Action Recognition using Deep Learning
+# 🎥 Video Action Recognition using Deep Learning
 
-This project implements a video action recognition system using CNN + LSTM on the UCF101 dataset.
+## 📌 Overview
+This project focuses on classifying human activities from video data using deep learning techniques. It captures both spatial and temporal features from video frames to accurately recognize actions.
 
-## 🚀 Features
-- Extract frames from videos
-- CNN (ResNet18) for spatial features
-- LSTM for temporal modeling
-- Predict action from input video
+## 🧠 Methodology
+- Extracted frames from video sequences
+- Preprocessed data for model training
+- Built and trained a deep learning model
+- Evaluated performance using accuracy metrics
 
-## 📊 Results
-- Training Accuracy: ~60–70% (subset)
-- Model improves with more data and epochs
+## ⚙️ Tech Stack
+- Python
+- PyTorch
+- NumPy, Pandas
+- Matplotlib
 
-## 📂 Dataset
-UCF101 (101 human action classes)
-
-## ▶️ How to Run
-
-### Train
-```bash
-python src/train.py
+## 🚀 How to Run
+1. Clone the repository  
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
